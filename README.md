@@ -3,4 +3,5 @@
 1. Simple Task Management App
 2. Weather Api Application
 3. Quote Generator Python App
+4. Turtle Race Game (Visualizer Included)
 
