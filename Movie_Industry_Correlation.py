@@ -1,12 +1,13 @@
 # Project Overview:
 # The goal is to analyze factors affecting a movie's gross revenue in the American movie industry using Python for data analysis.
+# more a guidline of code on how to do it, as this gave me trouble. Project would be easier with visualiser like tableau
 # We'll use a dataset spanning four decades obtained Data Source: https://www.kaggle.com/danielgrijalvas/movies
 
 # Section 1: Collect and Transform Data
 import pandas as pd
 
 # Assuming you have a CSV file named "movies.csv"
-df = pd.read_csv("movies_dataset.csv")
+df = pd.read_csv("movies.csv")
 
 # Explore the dataset
 print(df.head())
