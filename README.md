@@ -1,6 +1,6 @@
-# Mini-Python-Projects---Intermediae
-intermediate python projects for automation 
+# Python-Projects-Intermediate
+
 1. Simple Task Management App
 2. Weather Api Application
-3. 
+3. Quote Generator Python App
 
