@@ -2,6 +2,7 @@
 # Am a fan of beautiful quotes
 # The quotes are stored in a text file for persistence.
 
+import os
 import random
 
 # File to store quotes
