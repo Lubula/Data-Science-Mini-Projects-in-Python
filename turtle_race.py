@@ -1,3 +1,15 @@
+## Turtle-Race
+# A randomly simulated turtle race! Watch different color turtles race across the screen.
+
+# Project Breakdown:
+# Create turtles (& find out how many turtles the user wants to race)
+# Place turles (create screen, and place them on x & y axis correctly)
+# Picked colors and number of turtles
+# Race the turtles (create function to do this)
+# Please go to "turtle python" on google, to see variations of what can be done
+
+
+
 # Step 2
 # use built in module called turtle , great for basics. Will create the screen 2D graph
 # working with graphics requires defining the width and the height of the turtle screen
