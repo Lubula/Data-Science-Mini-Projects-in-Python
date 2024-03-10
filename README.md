@@ -2,6 +2,6 @@
 
 1. Task Management App
 2. Weather Api Application
-3.  Turtle Race Game ( 2D graph Visualizer Game on command prompt)
+3.  Turtle Race Game ( 2D color Graph Visualizer Game - run on Command Prompt(terminal) )
 5. Movie Industry Correlation Data Analysis 
 
