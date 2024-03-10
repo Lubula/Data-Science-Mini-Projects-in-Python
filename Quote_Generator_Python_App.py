@@ -10,6 +10,7 @@ QUOTES_FILE = "quotes.txt"
 
 # Function to load quotes from a file
 def load_quotes():
+    """Load quotes from the file if it exists."""
     quotes = []
     if not quotes_file_exists():
         return quotes
@@ -21,22 +22,26 @@ def load_quotes():
 
 # Function to save quotes to a file
 def save_quotes(quotes):
+    """Save quotes to the file."""
     with open(QUOTES_FILE, "w") as file:
         for quote in quotes:
             file.write(quote + "\n")
 
 # Function to check if the quotes file exists
 def quotes_file_exists():
+    """Check if the quotes file exists."""
     return os.path.exists(QUOTES_FILE)
 
 # Function to display the menu
 def display_menu():
+    """Display the menu options for the user."""
     print("1. Generate Random Quote")
     print("2. Add Your Own Quote")
     print("3. Exit")
 
 # Function to generate a random quote
 def generate_random_quote(quotes):
+    """Generate and display a random quote."""
     if not quotes:
         print("No quotes available. Add some quotes first.")
     else:
@@ -45,13 +50,18 @@ def generate_random_quote(quotes):
 
 # Function to add a user-defined quote
 def add_user_quote(quotes):
+    """Allow the user to add their own quote."""
     user_quote = input("Enter your quote: ")
-    quotes.append(user_quote)
-    save_quotes(quotes)
-    print("Quote added successfully!")
+    if user_quote.strip():  # Check if the user provided a non-empty quote
+        quotes.append(user_quote)
+        save_quotes(quotes)
+        print("Quote added successfully!")
+    else:
+        print("Invalid input. Quote cannot be empty.")
 
 # Main function
 def main():
+    """Main function to run the quote generator."""
     # Load existing quotes from the file
     quotes = load_quotes()
 
