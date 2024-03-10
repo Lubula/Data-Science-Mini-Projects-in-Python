@@ -1,8 +1,10 @@
-# note for win dows 10 - Set the Environment Variable:
+
 # Use the following command to set your OpenWeatherMap API key:
 # cmd
 # Copy code:
 # setx OPENWEATHERMAP_API_KEY "your_actual_api_key"
+# Please note not willling to put the notebook version to show app running as not willing to show api key (yes, i know there ways i can hide it)
+# code for educational purposes only 
 
 import requests
 import os
