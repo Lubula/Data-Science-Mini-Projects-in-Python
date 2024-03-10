@@ -1,0 +1,29 @@
+# Automation Script: File Backup
+# This script automates the backup process of files or directories to a specified destination.
+# Automating file backups ensures data integrity and disaster recovery preparedness.
+# Widely used across companies to safeguard important files and directories.
+
+import shutil
+import os
+
+def backup_files(source_dir, dest_dir):
+    try:
+        # Create destination directory if not exists
+        if not os.path.exists(dest_dir):
+            os.makedirs(dest_dir)
+        
+        # Copy files from source to destination
+        for root, dirs, files in os.walk(source_dir):
+            for file in files:
+                src_path = os.path.join(root, file)
+                dest_path = os.path.join(dest_dir, os.path.relpath(src_path, source_dir))
+                shutil.copy2(src_path, dest_path)
+        
+        print("Backup completed successfully!")
+    except Exception as e:
+        print(f"Error during backup: {e}")
+
+# Usage
+source_directory = "/path/to/source"
+destination_directory = "/path/to/destination"
+backup_files(source_directory, destination_directory)
