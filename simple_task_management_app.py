@@ -1,10 +1,10 @@
 # Developing a simple console-based task management application that allows users to add, view, update, and delete tasks. Tasks will be stored in a text file.
-
 import os
 import datetime
 
 # Function to load tasks from a file
 def load_tasks():
+    """Load tasks from a file."""
     tasks = []
 
     # Check if the tasks file exists
@@ -22,6 +22,7 @@ def load_tasks():
 
 # Function to save tasks to a file
 def save_tasks(tasks):
+    """Save tasks to a file."""
     # Open the tasks file in write mode
     with open("tasks.txt", "w") as file:
         # Iterate through each task in the tasks list
@@ -31,6 +32,7 @@ def save_tasks(tasks):
 
 # Function to display the menu
 def display_menu():
+    """Display the menu options for the user."""
     # Print the menu options
     print("1. Add a task")
     print("2. View tasks")
@@ -40,6 +42,7 @@ def display_menu():
 
 # Function to add a new task
 def add_task(tasks):
+    """Allow the user to add a new task."""
     # Get user input for task details
     title = input("Enter task title: ")
     description = input("Enter task description: ")
@@ -60,6 +63,7 @@ def add_task(tasks):
 
 # Function to view all tasks
 def view_tasks(tasks):
+    """Display all tasks."""
     # Check if there are no tasks
     if not tasks:
         print("No tasks available.")
@@ -70,6 +74,7 @@ def view_tasks(tasks):
 
 # Function to update a task
 def update_task(tasks):
+    """Allow the user to update a task."""
     # Display the current tasks
     view_tasks(tasks)
     # Get user input for the task to update
@@ -104,6 +109,7 @@ def update_task(tasks):
 
 # Function to delete a task
 def delete_task(tasks):
+    """Allow the user to delete a task."""
     # Display the current tasks
     view_tasks(tasks)
     # Get user input for the task to delete
@@ -126,6 +132,7 @@ def delete_task(tasks):
 
 # Main function
 def main():
+    """Main function to run the task manager."""
     # Load existing tasks from the file
     tasks = load_tasks()
 
@@ -149,6 +156,10 @@ def main():
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 5.")
+
+if __name__ == "__main__":
+    # Run the main function when the script is executed
+    main()
 
 if __name__ == "__main__":
     # Run the main function when the script is executed
