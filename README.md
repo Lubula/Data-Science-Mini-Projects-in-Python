@@ -1,5 +1,5 @@
 # Python-Projects-Intermediate
-## Python and data scince projects with increased complexity. Use of notebooks (from Google Co-lab and Jupiter Notebooks) and other dependancies 
+## Python and data science projects with added complexity. Use of notebooks (from Google Co-lab and Jupiter Notebooks) and other dependancies 
 
 1. Task Management App
 2. Weather Api Application
