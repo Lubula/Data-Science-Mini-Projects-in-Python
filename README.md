@@ -6,7 +6,7 @@
 3. Turtle Race Game: 2D color Graph Visualizer Game (Run on Command Prompt/terminal)
 4. Movie Industry Correlation: Using Python (Exploratory Data Analysis)
 5. Into To Data Modeling: Titanic Dataset Predictive Model
-6. Smart Chatbot program: 
+6. Smart Chatbot program: Using natural language processing to build a responsive chatbot
 
 
 
