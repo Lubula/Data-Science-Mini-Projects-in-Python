@@ -7,6 +7,6 @@
 4. Movie Industry Correlation: Using Python (Exploratory Data Analysis)
 5. Into To Data Modeling: Titanic Dataset Predictive Model
 6. Smart Chatbot program: 
-7. Customer Churn Prediction: Using Python (XGBoost)
+
 
 
