@@ -6,6 +6,7 @@
 3. Turtle Race Game: 2D color Graph Visualizer Game (Run on Command Prompt/terminal)
 4. Movie Industry Correlation: Using Python (Exploratory Data Analysis)
 5. Into To Data Modeling: Titanic Dataset Predictive Model
-6.  Customer Churn Prediction: Using Python (XGBoost)
+6. Smart Chatbot program: 
+7. Customer Churn Prediction: Using Python (XGBoost)
 
 
