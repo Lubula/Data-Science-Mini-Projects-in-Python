@@ -5,3 +5,4 @@
 2.  Movie Industry Correlation: Using Python (Exploratory Data Analysis)
 3. Into To Data Modeling: Titanic Dataset Predictive Model
 4.  Smart Chatbot program: Using natural language processing to build a responsive chatbot
+5.  Employee Churn Predictor Model
