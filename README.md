@@ -6,3 +6,4 @@
 3. Into To Data Modeling: Titanic Dataset Predictive Model
 4.  Smart Chatbot program: Using natural language processing to build a responsive chatbot
 5.  Employee Churn Predictor Model
+6.  Email Spam Detection using Python and Machine Learning
