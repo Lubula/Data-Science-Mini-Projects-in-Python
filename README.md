@@ -5,7 +5,7 @@ A curated collection of Python projects showcasing skills in programming, data a
 1. [Turtle Race Game](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/1_turtle_race_game.py)
 Type: Python Script
 #### Objective: Create a fun 2D race simulation using Turtle Graphics.
-#### Tech Stack: Python turtle library.
+#### Tech Stack: Pygame.
 #### Features:
 Colorful turtle race animation.
 Randomized race outcomes.
