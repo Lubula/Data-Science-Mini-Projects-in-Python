@@ -1,42 +1,52 @@
-# Python and Data Science Projects
+# Data Science Mini Projects in  Python
+A curated collection of Python projects showcasing skills in programming, data analysis, machine learning, and AI. Each project demonstrates real-world problem solving using Python libraries and frameworks.
 
-## Welcome
-Welcome to the Python and Data Science Projects repository! This repository features a variety of projects showcasing different aspects of Python programming, data analysis, and machine learning. Each project is designed to demonstrate the application of various techniques and tools in real-world scenarios.
+## 🚀 Projects Overview
+1. [Turtle Race Game](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/1_turtle_race_game.py)
+Type: Python Script
+#### Objective: Create a fun 2D race simulation using Turtle Graphics.
+#### Tech Stack: Python turtle library.
+#### Features:
+Colorful turtle race animation.
+Randomized race outcomes.
+- [Image of game running](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/1_turtle_race_game.py%20(Image%20of%20running%20game).png)
 
-### Projects Overview
+2. [Movie Industry Correlation Analysis](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/2_movie_industry_correlation.ipynb)
+Type: Jupyter Notebook
+#### Objective: Perform Exploratory Data Analysis (EDA) on movie datasets.
+#### Tech Stack: Pandas, Matplotlib, Seaborn.
+#### Key Insights:
+-Correlations between budget, gross earnings, and ratings.
+Trend visualization across years.
 
-#### 1. Turtle Race Game
+3. [Titanic Survival Prediction](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/3_titanic_survival_prediction.ipynb)
+Type: Jupyter Notebook
+#### Objective: Predict Titanic passenger survival using ML models.
+#### Tech Stack: Pandas, Scikit-learn, Matplotlib, Seaborn.
+#### Approach:
+- Data preprocessing and feature engineering.
+- Models: Logistic Regression, Decision Trees, Random Forest.
 
-- **Objective:** Create a 2D color graph visualizer game.
-- **Description:** A fun game implemented using the Turtle graphics library. Players can run the game on the command prompt or terminal.
-- **Methodology:** Utilizes the Turtle library to create a simple race game where turtles (represented as colored shapes) race across the screen.
+4. [Smart Chatbot](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/4_smart_chatbot.ipynb)
+Type: Jupyter Notebook
+#### Objective: Create a conversational chatbot using NLP.
+#### Tech Stack: Python, NLTK, spaCy.
+#### Features:
+- Understands and responds to user queries.
+- Rule-based + basic NLP pipeline.
 
-#### 2. Movie Industry Correlation
+5. [Employee Churn Prediction](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/5_employee_churn_prediction.ipynb)
+Type: Jupyter Notebook
+#### Objective: Predict which employees are likely to leave the company.
+#### Tech Stack: Pandas, Scikit-learn, Gradient Boosting.
+#### Features:
+- Feature selection for churn indicators.
+- Model performance comparison.
 
-- **Objective:** Perform exploratory data analysis (EDA) on the movie industry dataset.
-- **Description:** Analyze relationships and correlations between various attributes in the movie dataset.
-- **Methodology:** Use Python libraries such as pandas, matplotlib, and seaborn to visualize and explore data patterns.
-
-#### 3. Intro To Data Modeling: Titanic Dataset Predictive Model
-
-- **Objective:** Build a predictive model using the Titanic dataset.
-- **Description:** Use machine learning techniques to predict the survival of passengers on the Titanic.
-- **Methodology:** Implement data preprocessing, feature engineering, and model building using algorithms such as logistic regression, decision trees, and random forests. Evaluate model performance using accuracy, precision, recall, and F1-score.
-
-#### 4. Smart Chatbot Program
-
-- **Objective:** Develop a responsive chatbot using natural language processing (NLP).
-- **Description:** Build a chatbot that can interact with users and respond to their queries.
-- **Methodology:** Use NLP techniques and libraries like NLTK and spaCy to process and understand user inputs. Implement the chatbot logic to generate appropriate responses.
-
-#### 5. Employee Churn Predictor Model
-
-- **Objective:** Predict employee churn using machine learning.
-- **Description:** Analyze employee data to identify patterns and factors contributing to churn. Build a model to predict which employees are likely to leave.
-- **Methodology:** Perform data preprocessing, feature selection, and model building using algorithms like logistic regression, support vector machines, and gradient boosting. Evaluate model performance using various metrics.
-
-#### 6. Email Spam Detection
-
-- **Objective:** Detect spam emails using machine learning.
-- **Description:** Build a classifier to identify spam emails based on their content and metadata.
-- **Methodology:** Use Python libraries like sklearn to preprocess the data, extract features, and build classification models such as Naive Bayes, decision trees, and support vector machines. Evaluate the models using accuracy, precision, recall, and F1-score.
+6. [Email Spam Detection](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/5_employee_churn_prediction.ipynb)
+Type: Jupyter Notebook
+#### Objective: Classify emails as spam or ham.
+#### Tech Stack: Python, Scikit-learn.
+### Approach:
+- Text preprocessing and vectorization.
+- Naive Bayes, Decision Trees, SVM comparison.
