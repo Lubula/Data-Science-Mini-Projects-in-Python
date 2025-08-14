@@ -9,7 +9,7 @@ Type: Python Script
 #### Features:
 Colorful turtle race animation.
 Randomized race outcomes.
-- [Image of game running](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/1_turtle_race_game.py%20(Image%20of%20running%20game).png)
+- [Image of game running](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/1_turtle_race_game.py%20(Image%20turtle%20game%20running%20game).png)
 
 2. [Movie Industry Correlation Analysis](https://github.com/Lubula/Data-Science-Mini-Projects-in-Python/blob/main/2_movie_industry_correlation.ipynb)
 Type: Jupyter Notebook
